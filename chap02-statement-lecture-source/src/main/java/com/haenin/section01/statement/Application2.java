@@ -21,8 +21,6 @@ public class Application2 {
         System.out.print("조회하고자 하는 사원의 번호를 입력하세요: ");
         String empId =sc.nextLine();
 
-
-
         try {
             stmt = con.createStatement();
             // 필기. String이랑 쿼리안에 "" + empId + ""

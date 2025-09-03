@@ -7,16 +7,19 @@
 <body>
     <h1>forward</h1>
 <%--    table>(tr>td*3)*2--%>
-    <table>
-        <tr>
-            <td>아이디: </td>
-            <td><input type="text" name="userId"></td>
-            <td rowspan="2"><button style="height:50px">로그인</button></td>
-        </tr>
-        <tr>
-            <td>비밀번호: </td>
-            <td><input type="password" name="password"></td>
-        </tr>
-    </table>
+    <form action="forward" method="post">
+<%-- 리퀘스트 바디에 포함되어서 넘어감 -> 페이로드 --%>
+        <table>
+            <tr>
+                <td>아이디: </td>
+                <td><input type="text" name="userId"></td>
+                <td rowspan="2"><button style="height:50px">로그인</button></td>
+            </tr>
+            <tr>
+                <td>비밀번호: </td>
+                <td><input type="password" name="password"></td>
+            </tr>
+        </table>
+    </form>
 </body>
 </html>

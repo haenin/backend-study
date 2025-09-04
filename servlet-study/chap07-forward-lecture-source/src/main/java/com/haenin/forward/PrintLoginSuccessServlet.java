@@ -18,5 +18,17 @@ public class PrintLoginSuccessServlet extends HttpServlet {
         System.out.println("아이디: " + req.getParameter("userId"));
         System.out.println("패스워드: " + req.getParameter("password"));
 
+        String userName = (String)req.getAttribute("userName");
+        StringBuilder responseText = new StringBuilder();
+        responseText.append("<h3>")
+                .append(userName)
+                .append("님 환영합니다.</h3>");
+        resp.setContentType("text/html; charset=UTF-8");
+
+        PrintWriter out = resp.getWriter();
+        out.print(responseText);
+        out.flush();
+        out.close();
+
     }
 }

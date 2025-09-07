@@ -32,7 +32,8 @@ public class Application {
         System.out.println("I18N 500 한국 버전: " + error500Message);
 
         String error404MessageUS = context.getMessage("error.404", null, Locale.US);
-        String error500MessageUS= context.getMessage
+        String error500MessageUS= con]
+        text.getMessage
                 ("error.500", new Object[]{"you", new java.util.Date()}, Locale.US);
 
         System.out.println("I18N 404 미국 버전: " + error404MessageUS);

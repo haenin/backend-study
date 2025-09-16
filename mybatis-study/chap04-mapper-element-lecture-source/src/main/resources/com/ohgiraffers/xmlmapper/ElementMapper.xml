@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace = "com.ohgiraffers.xmlmapper.ElementMapper">
+    <resultMap id = "menuResultMap" type = "com.haenin.xmlmapper.MenuDTO">
+        <id property = "menuCode" column = "MENU_CODE"/>
+        <result property = "menuName" column = "MENU_NAME"/>
+        <result property = "menuPrice" column = "MENU_PRICE"/>
+        <result property = "categoryCode" column = "CATEGORY_CODE"/>
+    </resultMap>
+
+    <!-- menuResultMap을 물려 받아 위의 4가지 속성을 가지고 있음 -->
+    <resultMap id = "menuResultMap2" type = "com.haenin.xmlmapper.MenuDTO" extends = "menuResultMap">
+        <result property = "orderableStatus" column = "ORDERABLE_STATUS"/>
+    </resultMap>
+
+    <select id = "selectResultMapTest" resultMap = "menuResultMap2">
+        SELECT
+               A.MENU_CODE
+             , A.MENU_NAME
+             , A.MENU_PRICE
+             , A.CATEGORY_CODE
+             , A.ORDERABLE_STATUS
+          FROM TBL_MENU AS A
+         WHERE ORDERABLE_STATUS = 'Y'
+    </select>
+<!-- ____________________________________________________ -->
+
+<!--     1. Association 관계에서 resultMap 2개 활용 -->
+<!--    <resultMap id = "menuAndCategoryResultMap" type = "com.haenin.xmlmapper.MenuAndCategoryDTO">-->
+<!--        <id property = "menuCode" column = "MENU_CODE"/>-->
+<!--        <result property = "menuName" column = "MENU_NAME"/>-->
+<!--        <result property = "menuPrice" column = "MENU_PRICE"/>-->
+<!--        &lt;!&ndash;        <result property = "categoryCode" column = "CATEGORY_CODE"/>&ndash;&gt;-->
+<!--        <result property = "orderableStatus" column = "ORDERABLE_STATUS"/>-->
+<!--        &lt;!&ndash; assiciation을 이용해 categoryResultMap을 가져옴 &ndash;&gt;-->
+<!--        &lt;!&ndash; assiciation은 가장 밑에 단에 붙임 &ndash;&gt;-->
+<!--        <association property = "category" resultMap = "categoryResultMap"/>-->
+<!--    </resultMap>-->
+<!--    <resultMap id = "categoryResultMap" type = "com.haenin.xmlmapper.CategoryDTO">-->
+<!--        <id property = "categoryCode" column = "CATEGORY_CODE"/>-->
+<!--        <result property = "categoryName" column = "CATEGORY_NAME"/>-->
+<!--        <result property = "refCategoryCode" column = "REF_CATEGORY_CODE"/>-->
+<!--    </resultMap>-->
+
+    <!-- 2. Association 관계에서 resultMap 1개 활용 -->
+    <resultMap id = "menuAndCategoryResultMap" type = "com.haenin.xmlmapper.MenuAndCategoryDTO">
+        <id property = "menuCode" column = "MENU_CODE"/>
+        <result property = "menuName" column = "MENU_NAME"/>
+        <result property = "menuPrice" column = "MENU_PRICE"/>
+        <result property = "orderableStatus" column = "ORDERABLE_STATUS"/>
+
+        <association property = "category" javaType = "com.haenin.xmlmapper.CategoryDTO">
+            <id property = "categoryCode" column = "CATEGORY_CODE"/>
+            <result property = "categoryName" column = "CATEGORY_NAME"/>
+            <result property = "refCategoryCode" column = "REF_CATEGORY_CODE"/>
+        </association>
+    </resultMap>
+
+    <select id = "selectResultMapAssociationTest" resultMap = "menuAndCategoryResultMap">
+        SELECT
+               A.MENU_CODE
+             , A.MENU_NAME
+             , A.MENU_PRICE
+             , A.CATEGORY_CODE
+             , B.CATEGORY_NAME
+             , B.REF_CATEGORY_CODE
+             , A.ORDERABLE_STATUS
+          FROM TBL_MENU AS A
+          JOIN TBL_CATEGORY AS B ON (A.CATEGORY_CODE = B.CATEGORY_CODE)
+         WHERE A.ORDERABLE_STATUS = 'Y'
+    </select>
+<!--    ________________________________________________-->
+
+<!--     3. Collection 관계에서 resultMap 2개 활용 -->
+<!--    <resultMap id = "categoryAndMenuResultMap" type = "com.haenin.xmlmapper.CategoryAndMenuDTO">-->
+<!--        <id property = "categoryCode" column = "CATEGORY_CODE"/>-->
+<!--        <result property = "categoryName" column = "CATEGORY_NAME"/>-->
+<!--        <result property = "refCategoryCode" column = "REF_CATEGORY_CODE"/>-->
+<!--        <collection property = "menus" resultMap = "menuResultMap3"/>-->
+<!--    </resultMap>-->
+
+<!--    <resultMap id = "menuResultMap3" type = "com.haenin.xmlmapper.MenuDTO">-->
+<!--        <id property = "menuCode" column = "MENU_CODE"/>-->
+<!--        <result property = "menuName" column = "MENU_NAME"/>-->
+<!--        <result property = "menuPrice" column = "MENU_PRICE"/>-->
+<!--        <result property = "categoryCode" column = "CACO"/> &lt;!&ndash; 같은 컬럼은 에러는 나지 않지만 가급적 별칭 활용 &ndash;&gt;-->
+<!--        <result property = "orderableStatus" column = "ORDERABLE_STATUS"/>-->
+<!--    </resultMap>-->
+
+    <!-- 4. Collection 관계에서 resultMap 1개 활용 -->
+    <resultMap id = "categoryAndMenuResultMap" type = "com.haenin.xmlmapper.CategoryAndMenuDTO">
+        <id property = "categoryCode" column = "CATEGORY_CODE"/>
+        <result property = "categoryName" column = "CATEGORY_NAME"/>
+        <result property = "refCategoryCode" column = "REF_CATEGORY_CODE"/>
+        <collection property = "menus" ofType = "com.haenin.xmlmapper.MenuDTO">
+            <id property = "menuCode" column = "MENU_CODE"/>
+            <result property = "menuName" column = "MENU_NAME"/>
+            <result property = "menuPrice" column = "MENU_PRICE"/>
+            <result property = "categoryCode" column = "CACO"/> <!-- 같은 컬럼은 에러는 나지 않지만 가급적 별칭 활용 -->
+            <result property = "orderableStatus" column = "ORDERABLE_STATUS"/>
+        </collection>
+    </resultMap>
+
+
+    <select id = "selectResultMapCollectionTest" resultMap = "categoryAndMenuResultMap">
+        SELECT
+               A.CATEGORY_CODE
+             , A.CATEGORY_NAME
+             , A.REF_CATEGORY_CODE
+             , B.MENU_CODE
+             , B.MENU_NAME
+             , B.MENU_PRICE
+             , B.CATEGORY_CODE AS CACO
+             , B.ORDERABLE_STATUS
+          FROM TBL_CATEGORY AS A
+          JOIN TBL_MENU AS B ON (A.CATEGORY_CODE = B.CATEGORY_CODE)
+         WHERE B.ORDERABLE_STATUS = 'Y'
+    </select>
+</mapper>

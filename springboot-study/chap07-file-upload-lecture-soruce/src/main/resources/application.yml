@@ -1,0 +1,18 @@
+server:
+  port: 8081
+  tomcat:
+    max-connections: 200      # ?? ?? ?? ?
+
+filepath: /Users/haeone/Desktop/hw19/backend-study/springboot-study/uploadFiles
+
+#?? ??? ?? ??
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 100MB    # ??? ? ? ?? ? ?? ??(default 1MB)
+      max-request-size: 100MB # ??? ??? ? ??(default 10MB)
+  web:
+    resources:
+      static-locations: file:///Users/haeone/Desktop/hw19/backend-study/springboot-study/uploadFiles/ # ?? ??? ??
+      cache-period: 3600      # ? ????? ?? ??(?, 1??)

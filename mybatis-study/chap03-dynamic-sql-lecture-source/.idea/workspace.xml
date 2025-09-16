@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f0a83793-2404-4528-a634-ed11eaa61b60" name="변경" comment="servlet study">
+      <change afterPath="$PROJECT_DIR$/../../mybatis&amp;spring-study/chap01-mybatis-spring-lecture-source/src/main/java/com/haenin/mybatisspring/config/MybatisConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mybatis&amp;spring-study/chap01-mybatis-spring-lecture-source/src/main/java/com/haenin/mybatisspring/section01/factorybean/MenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mybatis&amp;spring-study/chap01-mybatis-spring-lecture-source/src/main/java/com/haenin/mybatisspring/section01/factorybean/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mybatis&amp;spring-study/chap01-mybatis-spring-lecture-source/src/main/resources/com/haenin/mybatisspring/section01/factorybean/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mybatis&amp;spring-study/chap01-mybatis-spring-lecture-source/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mybatis&amp;spring-study/chap01-mybatis-spring-lecture-source/src/main/resources/log4jdbc.log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mybatis&amp;spring-study/chap01-mybatis-spring-lecture-source/src/test/java/com/haenin/mybatisspring/section01/factorybean/MenuServiceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;haenin&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/haenin/backend-study.git&quot;,
+    &quot;accountId&quot;: &quot;78d49b73-16b5-4308-9853-2a94b64ff0f1&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="32Zwaf9FE0TCjSZSLiUNc5oLn4T" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.chap03-dynamic-sql-lecture-source [:com.haenin.dynamic.Application.main()].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/haeone/Desktop/hw19/backend-study/mybatis-study/chap03-dynamic-sql-lecture-source",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.haenin.dynamic" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.haenin.dynamic" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="f0a83793-2404-4528-a634-ed11eaa61b60" name="변경" comment="" />
+      <created>1757641467100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757641467100</updated>
+      <workItem from="1757641468102" duration="15650000" />
+      <workItem from="1757660849741" duration="381000" />
+      <workItem from="1757785814272" duration="649000" />
+      <workItem from="1757827400304" duration="6462000" />
+      <workItem from="1757917109559" duration="5767000" />
+    </task>
+    <task id="LOCAL-00001" summary="springboot study">
+      <option name="closed" value="true" />
+      <created>1757945572497</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945572497</updated>
+    </task>
+    <task id="LOCAL-00002" summary="springboot study">
+      <option name="closed" value="true" />
+      <created>1757945588789</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945588789</updated>
+    </task>
+    <task id="LOCAL-00003" summary="springboot study">
+      <option name="closed" value="true" />
+      <created>1757945592409</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945592409</updated>
+    </task>
+    <task id="LOCAL-00004" summary="springboot study">
+      <option name="closed" value="true" />
+      <created>1757945597032</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945597032</updated>
+    </task>
+    <task id="LOCAL-00005" summary="springboot study">
+      <option name="closed" value="true" />
+      <created>1757945600585</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945600585</updated>
+    </task>
+    <task id="LOCAL-00006" summary="springboot study">
+      <option name="closed" value="true" />
+      <created>1757945603959</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945603959</updated>
+    </task>
+    <task id="LOCAL-00007" summary="springboot study">
+      <option name="closed" value="true" />
+      <created>1757945608933</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945608933</updated>
+    </task>
+    <task id="LOCAL-00008" summary="springboot study">
+      <option name="closed" value="true" />
+      <created>1757945612125</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945612125</updated>
+    </task>
+    <task id="LOCAL-00009" summary="springboot study">
+      <option name="closed" value="true" />
+      <created>1757945623007</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945623007</updated>
+    </task>
+    <task id="LOCAL-00010" summary="springboot study">
+      <option name="closed" value="true" />
+      <created>1757945635108</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945635108</updated>
+    </task>
+    <task id="LOCAL-00011" summary="springboot study">
+      <option name="closed" value="true" />
+      <created>1757945652280</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945652280</updated>
+    </task>
+    <task id="LOCAL-00012" summary="springboot study">
+      <option name="closed" value="true" />
+      <created>1757945701124</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945701124</updated>
+    </task>
+    <task id="LOCAL-00013" summary="springboot study">
+      <option name="closed" value="true" />
+      <created>1757945711635</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945711635</updated>
+    </task>
+    <task id="LOCAL-00014" summary="springboot study">
+      <option name="closed" value="true" />
+      <created>1757945714956</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945714956</updated>
+    </task>
+    <task id="LOCAL-00015" summary="springboot study">
+      <option name="closed" value="true" />
+      <created>1757945725917</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945725917</updated>
+    </task>
+    <task id="LOCAL-00016" summary="springboot study">
+      <option name="closed" value="true" />
+      <created>1757945729529</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945729529</updated>
+    </task>
+    <task id="LOCAL-00017" summary="springboot study">
+      <option name="closed" value="true" />
+      <created>1757945733014</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945733014</updated>
+    </task>
+    <task id="LOCAL-00018" summary="servlet study">
+      <option name="closed" value="true" />
+      <created>1757945768554</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945768554</updated>
+    </task>
+    <task id="LOCAL-00019" summary="servlet study">
+      <option name="closed" value="true" />
+      <created>1757945773424</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945773424</updated>
+    </task>
+    <task id="LOCAL-00020" summary="servlet study">
+      <option name="closed" value="true" />
+      <created>1757945779883</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945779883</updated>
+    </task>
+    <task id="LOCAL-00021" summary="servlet study">
+      <option name="closed" value="true" />
+      <created>1757945791502</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945791502</updated>
+    </task>
+    <task id="LOCAL-00022" summary="servlet study">
+      <option name="closed" value="true" />
+      <created>1757945802619</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945802619</updated>
+    </task>
+    <task id="LOCAL-00023" summary="servlet study">
+      <option name="closed" value="true" />
+      <created>1757945809627</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945809627</updated>
+    </task>
+    <task id="LOCAL-00024" summary="servlet study">
+      <option name="closed" value="true" />
+      <created>1757945821517</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945821517</updated>
+    </task>
+    <task id="LOCAL-00025" summary="servlet study">
+      <option name="closed" value="true" />
+      <created>1757945824986</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945824986</updated>
+    </task>
+    <task id="LOCAL-00026" summary="servlet study">
+      <option name="closed" value="true" />
+      <created>1757945828177</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945828177</updated>
+    </task>
+    <task id="LOCAL-00027" summary="servlet study">
+      <option name="closed" value="true" />
+      <created>1757945832157</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945832157</updated>
+    </task>
+    <task id="LOCAL-00028" summary="servlet study">
+      <option name="closed" value="true" />
+      <created>1757945836138</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945836138</updated>
+    </task>
+    <task id="LOCAL-00029" summary="servlet study">
+      <option name="closed" value="true" />
+      <created>1757945841755</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945841755</updated>
+    </task>
+    <task id="LOCAL-00030" summary="servlet study">
+      <option name="closed" value="true" />
+      <created>1757945845799</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945845799</updated>
+    </task>
+    <task id="LOCAL-00031" summary="servlet study">
+      <option name="closed" value="true" />
+      <created>1757945848911</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945848912</updated>
+    </task>
+    <task id="LOCAL-00032" summary="servlet study">
+      <option name="closed" value="true" />
+      <created>1757945852756</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945852756</updated>
+    </task>
+    <task id="LOCAL-00033" summary="servlet study">
+      <option name="closed" value="true" />
+      <created>1757945855939</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945855939</updated>
+    </task>
+    <task id="LOCAL-00034" summary="servlet study">
+      <option name="closed" value="true" />
+      <created>1757945875552</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945875552</updated>
+    </task>
+    <task id="LOCAL-00035" summary="servlet study">
+      <option name="closed" value="true" />
+      <created>1757945898770</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945898770</updated>
+    </task>
+    <task id="LOCAL-00036" summary="servlet study">
+      <option name="closed" value="true" />
+      <created>1757945963522</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945963522</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="springboot study" />
+    <MESSAGE value="servlet study" />
+    <option name="LAST_COMMIT_MESSAGE" value="servlet study" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/haenin/dynamic/SearchCriteria.java</url>
+          <line>9</line>
+          <properties class="com.haenin.dynamic.SearchCriteria">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

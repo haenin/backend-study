@@ -1,0 +1,9 @@
+# db의 url은 url 키로 해 주어야 스프링이 자동 인식한다.
+spring:
+  datasource:
+#    driver-class-name: org.mariadb.jdbc.Driver
+#    url: jdbc:mariadb://localhost:3306/menudb
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    url: jdbc:log4jdbc:mariadb://localhost:3306/menudb
+    username: root
+    password: mariadb

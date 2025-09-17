@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="50bd8aab-5aa8-447f-8a2c-1afa87774ec8" name="변경" comment="jpa study">
+      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/src/test/java/com/haenin/section01/EntityManagerLifeCycleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/src/test/java/com/haenin/section02/crud/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/src/test/java/com/haenin/section03/persistencecontext/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/src/test/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-study/chap02-mapping-lecture-source/src/test/java/com/haenin/section01/entity/EntityMappingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-study/chap02-mapping-lecture-source/src/test/java/com/haenin/section01/entity/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-study/chap02-mapping-lecture-source/src/test/java/com/haenin/section02/column/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-study/chap02-mapping-lecture-source/src/test/java/com/haenin/section03/primarykey/subsection01/identity/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-study/chap02-mapping-lecture-source/src/test/java/com/haenin/section03/primarykey/subsection01/identity/PrimaryKeyMappingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jpa-study/chap02-mapping-lecture-source/src/test/resources/META-INF/persistence.xml" afterDir="false" />
+    </list>
+    <list id="3ea87c96-0df6-4923-a145-f8b6df4e476b" name="shelvedpatch" comment="shelvedpatch" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;haenin&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/haenin/backend-study.git&quot;,
+    &quot;accountId&quot;: &quot;c2da40f2-dfe8-48a2-a787-412478f2ea26&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="32ld6yBrb6RPEQmKYq5GBUpUdiE" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/haeone/Desktop/hw19/backend-study&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="50bd8aab-5aa8-447f-8a2c-1afa87774ec8" name="변경" comment="" />
+      <changelist id="3ea87c96-0df6-4923-a145-f8b6df4e476b" name="shelvedpatch" comment="" />
+      <created>1757998922072</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757998922072</updated>
+      <workItem from="1757998923117" duration="823000" />
+      <workItem from="1758000079535" duration="45000" />
+      <workItem from="1758000649130" duration="51000" />
+      <workItem from="1758002191556" duration="73000" />
+      <workItem from="1758002789863" duration="5000" />
+      <workItem from="1758003483473" duration="18000" />
+      <workItem from="1758003645659" duration="7000" />
+      <workItem from="1758003821233" duration="10000" />
+      <workItem from="1758004163561" duration="91000" />
+      <workItem from="1758004655285" duration="116000" />
+      <workItem from="1758004819536" duration="50000" />
+      <workItem from="1758004872095" duration="2000" />
+      <workItem from="1758008867887" duration="620000" />
+      <workItem from="1758017739563" duration="15000" />
+      <workItem from="1758017821042" duration="1046000" />
+      <workItem from="1758102361004" duration="21000" />
+      <workItem from="1758115862140" duration="80000" />
+    </task>
+    <task id="LOCAL-00001" summary="mybatis&amp;spring study">
+      <option name="closed" value="true" />
+      <created>1757999456677</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757999456677</updated>
+    </task>
+    <task id="LOCAL-00002" summary="mybatis&amp;spring study">
+      <option name="closed" value="true" />
+      <created>1757999533567</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757999533567</updated>
+    </task>
+    <task id="LOCAL-00003" summary="mybatis&amp;spring study">
+      <option name="closed" value="true" />
+      <created>1757999650463</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757999650463</updated>
+    </task>
+    <task id="LOCAL-00004" summary="mybatis&amp;spring study">
+      <option name="closed" value="true" />
+      <created>1757999685412</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1757999685412</updated>
+    </task>
+    <task id="LOCAL-00005" summary="mybatis&amp;spring study">
+      <option name="closed" value="true" />
+      <created>1757999741860</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1757999741860</updated>
+    </task>
+    <task id="LOCAL-00006" summary="mybatis&amp;spring study">
+      <option name="closed" value="true" />
+      <created>1758000664032</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1758000664032</updated>
+    </task>
+    <task id="LOCAL-00007" summary="mybatis&amp;spring study">
+      <option name="closed" value="true" />
+      <created>1758002197167</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1758002197167</updated>
+    </task>
+    <task id="LOCAL-00008" summary="mybatis&amp;spring study">
+      <option name="closed" value="true" />
+      <created>1758017828728</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1758017828728</updated>
+    </task>
+    <task id="LOCAL-00009" summary="jpa study">
+      <option name="closed" value="true" />
+      <created>1758102380209</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1758102380209</updated>
+    </task>
+    <task id="LOCAL-00010" summary="jpa study">
+      <option name="closed" value="true" />
+      <created>1758115888113</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1758115888113</updated>
+    </task>
+    <task id="LOCAL-00011" summary="jpa study">
+      <option name="closed" value="true" />
+      <created>1758115935504</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1758115935504</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/jdbc-study" />
+      <path value="$PROJECT_DIR$/jpa-study" />
+      <path value="$PROJECT_DIR$/mybatis&amp;spring-study" />
+      <path value="$PROJECT_DIR$/mybatis&amp;spring-study/chap01-mybatis-spring-lecture-source" />
+      <path value="$PROJECT_DIR$/mybatis&amp;spring-study/chap02-transactional-lecture-source" />
+      <path value="$PROJECT_DIR$/mybatis-study" />
+      <path value="$PROJECT_DIR$/mybatis-study/chap04-mapper-element-lecture-source" />
+      <path value="$PROJECT_DIR$/servlet-study" />
+      <path value="$PROJECT_DIR$/spring-study" />
+      <path value="$PROJECT_DIR$/springboot-study" />
+    </ignored-roots>
+    <MESSAGE value="mybatis&amp;spring study" />
+    <MESSAGE value="jpa study" />
+    <option name="LAST_COMMIT_MESSAGE" value="jpa study" />
+  </component>
+</project>

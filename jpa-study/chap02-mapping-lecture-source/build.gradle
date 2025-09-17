@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.haenin'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+    // 순수 jpa 라이브러리
+    implementation("org.hibernate.orm:hibernate-core:6.3.1.Final")
+    // mysql 커넥터 라이브러리
+    implementation 'com.mysql:mysql-connector-j:8.0.33'
+}
+
+test {
+    useJUnitPlatform()
+}

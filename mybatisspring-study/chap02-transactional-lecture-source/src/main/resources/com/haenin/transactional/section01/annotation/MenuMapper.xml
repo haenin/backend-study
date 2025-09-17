@@ -16,8 +16,8 @@
             resultMap="menuResultMap">
         SELECT
                A.MENU_CODE
-             , A.MENu_NAME
-             , A.MENu_PRICE
+             , A.MENU_NAME
+             , A.MENU_PRICE
              , A.CATEGORY_CODE
              , A.ORDERABLE_STATUS
           FROM TBL_MENU A

@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50bd8aab-5aa8-447f-8a2c-1afa87774ec8" name="변경" comment="jpa study">
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/src/test/java/com/haenin/section01/EntityManagerLifeCycleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/src/test/java/com/haenin/section02/crud/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/src/test/java/com/haenin/section03/persistencecontext/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap01-persistence-context-lecture-source/src/test/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap02-mapping-lecture-source/src/test/java/com/haenin/section01/entity/EntityMappingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap02-mapping-lecture-source/src/test/java/com/haenin/section01/entity/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap02-mapping-lecture-source/src/test/java/com/haenin/section02/column/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap02-mapping-lecture-source/src/test/java/com/haenin/section03/primarykey/subsection01/identity/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap02-mapping-lecture-source/src/test/java/com/haenin/section03/primarykey/subsection01/identity/PrimaryKeyMappingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap02-mapping-lecture-source/src/test/resources/META-INF/persistence.xml" afterDir="false" />
-    </list>
+    <list default="true" id="50bd8aab-5aa8-447f-8a2c-1afa87774ec8" name="변경" comment="jpa study" />
     <list id="3ea87c96-0df6-4923-a145-f8b6df4e476b" name="shelvedpatch" comment="shelvedpatch" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +85,7 @@
       <workItem from="1758017821042" duration="1046000" />
       <workItem from="1758102361004" duration="21000" />
       <workItem from="1758115862140" duration="80000" />
+      <workItem from="1758115988691" duration="1307000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis&amp;spring study">
       <option name="closed" value="true" />
@@ -196,7 +175,79 @@
       <option name="project" value="LOCAL" />
       <updated>1758115935504</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="jpa study">
+      <option name="closed" value="true" />
+      <created>1758116422004</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1758116422004</updated>
+    </task>
+    <task id="LOCAL-00013" summary="jpa study">
+      <option name="closed" value="true" />
+      <created>1758116446706</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1758116446706</updated>
+    </task>
+    <task id="LOCAL-00014" summary="jpa study">
+      <option name="closed" value="true" />
+      <created>1758116506180</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1758116506180</updated>
+    </task>
+    <task id="LOCAL-00015" summary="jpa study">
+      <option name="closed" value="true" />
+      <created>1758116529245</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1758116529245</updated>
+    </task>
+    <task id="LOCAL-00016" summary="jpa study">
+      <option name="closed" value="true" />
+      <created>1758116559921</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1758116559921</updated>
+    </task>
+    <task id="LOCAL-00017" summary="jpa study">
+      <option name="closed" value="true" />
+      <created>1758116606938</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1758116606938</updated>
+    </task>
+    <task id="LOCAL-00018" summary="jpa study">
+      <option name="closed" value="true" />
+      <created>1758116645199</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1758116645199</updated>
+    </task>
+    <task id="LOCAL-00019" summary="jpa study">
+      <option name="closed" value="true" />
+      <created>1758116739399</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1758116739399</updated>
+    </task>
+    <task id="LOCAL-00020" summary="jpa study">
+      <option name="closed" value="true" />
+      <created>1758116800387</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1758116800387</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

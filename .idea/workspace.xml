@@ -12,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/jpa-study/chap03-association-mapping-lecture-source" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -87,7 +87,7 @@
       <workItem from="1758115862140" duration="80000" />
       <workItem from="1758115988691" duration="2464000" />
       <workItem from="1758175253035" duration="52000" />
-      <workItem from="1758293363774" duration="741000" />
+      <workItem from="1758293363774" duration="1251000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis&amp;spring study">
       <option name="closed" value="true" />
@@ -321,7 +321,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758293641219</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758294375277</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1758294375277</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,6 +358,9 @@
       <path value="$PROJECT_DIR$/servlet-study" />
       <path value="$PROJECT_DIR$/spring-study" />
       <path value="$PROJECT_DIR$/springboot-study" />
+      <path value="$PROJECT_DIR$/jpa-study/chap03-association-mapping-lecture-source" />
+      <path value="$PROJECT_DIR$/jpa-study/chap04-jpql.lecture.source" />
+      <path value="$PROJECT_DIR$/jpa-study/chap05-spring-data-jpa-lecture-source" />
     </ignored-roots>
     <MESSAGE value="mybatis&amp;spring study" />
     <MESSAGE value="jpa study" />

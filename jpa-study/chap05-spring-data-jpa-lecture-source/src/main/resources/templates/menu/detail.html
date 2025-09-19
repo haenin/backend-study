@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>detail</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <!-- th는 td와 달리 가운데 정렬과 굵은 글씨 -->
+            <th>메뉴번호</th>
+            <th>메뉴이름</th>
+            <th>메뉴가격</th>
+            <th>카테고리코드</th>
+            <th>판매상태</th>
+        </tr>
+        <tr>
+            <th th:text="${ menu.menuCode }"></th>
+            <th th:text="${ menu.menuName }"></th>
+            <th th:text="${ menu.menuPrice }"></th>
+            <th th:text="${ menu.categoryCode }"></th>
+            <th th:text="${ menu.orderableStatus }"></td>
+        </tr>
+    </table>
+</body>
+</html>

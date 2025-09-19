@@ -4,42 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50bd8aab-5aa8-447f-8a2c-1afa87774ec8" name="변경" comment="commit">
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap04.jpql.lecture.source/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap04.jpql.lecture.source/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap04.jpql.lecture.source/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap04.jpql.lecture.source/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap04.jpql.lecture.source/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap04.jpql.lecture.source/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap04.jpql.lecture.source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap04.jpql.lecture.source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap04.jpql.lecture.source/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap04.jpql.lecture.source/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap04.jpql.lecture.source/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap04.jpql.lecture.source/src/test/java/com/haenin/section01/simple/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap04.jpql.lecture.source/src/test/java/com/haenin/section01/simple/SimpleJPQLTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chap04.jpql.lecture.source/src/test/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chchap03-association-mapping-lecture-source/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chchap03-association-mapping-lecture-source/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chchap03-association-mapping-lecture-source/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chchap03-association-mapping-lecture-source/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chchap03-association-mapping-lecture-source/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chchap03-association-mapping-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chchap03-association-mapping-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chchap03-association-mapping-lecture-source/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chchap03-association-mapping-lecture-source/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chchap03-association-mapping-lecture-source/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chchap03-association-mapping-lecture-source/src/test/java/com/haenin/section01/manytoone/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chchap03-association-mapping-lecture-source/src/test/java/com/haenin/section01/manytoone/ManyToOneAssociationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chchap03-association-mapping-lecture-source/src/test/java/com/haenin/section01/manytoone/MenuAndCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chchap03-association-mapping-lecture-source/src/test/java/com/haenin/section02/onetomany/CategoryAndMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chchap03-association-mapping-lecture-source/src/test/java/com/haenin/section02/onetomany/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chchap03-association-mapping-lecture-source/src/test/java/com/haenin/section02/onetomany/OneToManyAssociationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chchap03-association-mapping-lecture-source/src/test/java/com/haenin/section03/bidrection/BidrectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chchap03-association-mapping-lecture-source/src/test/java/com/haenin/section03/bidrection/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chchap03-association-mapping-lecture-source/src/test/java/com/haenin/section03/bidrection/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa-study/chchap03-association-mapping-lecture-source/src/test/resources/META-INF/persistence.xml" afterDir="false" />
-    </list>
+    <list default="true" id="50bd8aab-5aa8-447f-8a2c-1afa87774ec8" name="변경" comment="commit" />
     <list id="3ea87c96-0df6-4923-a145-f8b6df4e476b" name="shelvedpatch" comment="shelvedpatch" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/jpa-study/chap04.jpql.lecture.source" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/jpa-study/chap03-association-mapping-lecture-source" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -122,6 +87,7 @@
       <workItem from="1758115862140" duration="80000" />
       <workItem from="1758115988691" duration="2464000" />
       <workItem from="1758175253035" duration="52000" />
+      <workItem from="1758293363774" duration="741000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis&amp;spring study">
       <option name="closed" value="true" />
@@ -331,7 +297,31 @@
       <option name="project" value="LOCAL" />
       <updated>1758175265837</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758293379137</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1758293379137</updated>
+    </task>
+    <task id="LOCAL-00028" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758293535407</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1758293535407</updated>
+    </task>
+    <task id="LOCAL-00029" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758293641219</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1758293641219</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/jpa-study/chap03-association-mapping-lecture-source" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/jpa-study/chap04-jpql.lecture.source" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/jpa-study/chap04.jpql.lecture.source" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/jpa-study/chap05-spring-data-jpa-lecture-source" vcs="Git" />
+  </component>
+</project>

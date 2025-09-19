@@ -5,9 +5,13 @@
     <persistence-unit name="jpatest">
 
         <!-- 설명. 엔티티는 설정에 따로 추가할 예정 -->
-        <class>com.haenin.section01.entity.Member</class>
-        <class>com.haenin.section02.column.Member</class>
-        <class>com.haenin.section03.primarykey.subsection01.identity.Member</class>
+<!--        <class>com.haenin.section01.entity.Member</class>-->
+<!--        <class>com.haenin.section02.column.Member</class>-->
+<!--        <class>com.haenin.section03.primarykey.subsection01.identity.Member</class>-->
+<!--        <class>com.haenin.section03.primarykey.subsection02.table.Member</class>-->
+<!--        <class>com.haenin.section04.enumtype.Member</class>-->
+        <class>com.haenin.section05.compositekey.subsection01.embedded.Member</class>
+        <class>com.haenin.section05.compositekey.subsection02.idclass.Member</class>
 
         <properties>
 

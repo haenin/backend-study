@@ -48,7 +48,7 @@ public class PrimaryKeyMappingTest {
         member.setStatus("Y");
 
         Member member2 = new Member();
-        //member.setMemberNo(1);
+        //member.setMemberNo(2);
         member2.setMemberId("user02");
         member2.setMemberPwd("pass02");
         member2.setNickname("유관순");
@@ -60,7 +60,9 @@ public class PrimaryKeyMappingTest {
 
         EntityTransaction entityTransaction = entityManager.getTransaction();
         entityTransaction.begin();
-
+        /* 설명. PK전략을 @GeneratedValue(strategy = GenerationType.IDENTITY)로
+        *       가져가면 persist 시점에 insert가 무조건 발생한다.
+        *       즉시 flush() 호출됨 */
         System.out.println("persist 전 member: " + member);
         entityManager.persist(member);
         entityManager.persist(member2);

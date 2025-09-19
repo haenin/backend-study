@@ -10,6 +10,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /* 설명. 나중엔 간편히 할 수 있으나 이번 프로젝트는 추가 설정 할 예정 */
+/* 설명. 나중엔 간편히 할 수 있으나 이번 프로젝트는 추가 설정 할 예정 */
 @Configuration
 public class MybatisConfiguration {
     @Value("${spring.datasource.driver-class-name}")
@@ -24,45 +25,43 @@ public class MybatisConfiguration {
     @Value("${spring.datasource.password}")
     private String password;
 
-    // 커넥션 풀을 빠르게(최적화) 다루기 위해 나옴
     @Bean
-    public HikariDataSource dataSource(){
-        HikariDataSource dataSource =
-                new HikariDataSource();
+    public HikariDataSource dataSource() {
+        HikariDataSource dataSource = new HikariDataSource();
         dataSource.setDriverClassName(driverClassName);
         dataSource.setJdbcUrl(jdbcUrl);
         dataSource.setUsername(username);
         dataSource.setPassword(password);
 
         /* 설명. 데이터베이스 연결 시도 유지 시간 */
-        dataSource.setConnectionTimeout(30000);  // 30초
+        dataSource.setConnectionTimeout(30000);      // 30초
 
         /* 설명. 데이터베이스 유휴 시간(커넥트 되고 이후 쿼리가 안날아 가는 상태를 대기하는 시간) */
-        dataSource.setIdleTimeout(600000);       // 10분
+        dataSource.setIdleTimeout(600000);           // 10분
 
         /* 설명. 데이터 베이스 연결 최대 유지 시간 */
-        dataSource.setMaxLifetime(1000000);      // 30분
+        dataSource.setMaxLifetime(1800000);          // 30분
 
         dataSource.setMaximumPoolSize(50);
 
         return dataSource;
     }
-    // bean의 스코프는 기본값 싱글톤
+
     @Bean
-    public SqlSessionFactory sqlSessionFactory() throws Exception{
-        org.apache.ibatis.session.Configuration configuration =
-                new org.apache.ibatis.session.Configuration();
+    public SqlSessionFactory sqlSessionFactory() throws Exception {
+        org.apache.ibatis.session.Configuration configuration
+                = new org.apache.ibatis.session.Configuration();
         configuration.addMapper(MenuMapper.class);
 
-        SqlSessionFactoryBean factoryBean =
-                new SqlSessionFactoryBean();
-        factoryBean.setDataSource(dataSource()); // environment의 개념
-        factoryBean.setConfiguration(configuration); // mapper 추가 개념
+        SqlSessionFactoryBean factoryBean = new SqlSessionFactoryBean();
+        factoryBean.setDataSource(dataSource());            // environment의 개념
+        factoryBean.setConfiguration(configuration);        // mapper 추가 개념
 
         return factoryBean.getObject();
     }
+
     @Bean
-    public SqlSessionTemplate sqlSessionTemplate() throws Exception{
-        return new SqlSessionTemplate(sqlSessionFactory()); // 내부적으로 커넥션 객체를 만들어줌
+    public SqlSessionTemplate sqlSessionTemplate() throws Exception {
+        return new SqlSessionTemplate(sqlSessionFactory());
     }
 }

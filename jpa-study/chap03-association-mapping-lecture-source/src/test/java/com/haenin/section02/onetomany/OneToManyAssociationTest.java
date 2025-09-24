@@ -34,7 +34,7 @@ public class OneToManyAssociationTest {
     }
 
     @Test
-    public void 일대다_연관관계_갹채_그래프_탐색을_이용한_조회_테스트(){
+    public void 일대다_연관관계_객체_그래프_탐색을_이용한_조회_테스트(){
         int categoryCode = 10;
 
         CategoryAndMenu categoryAndMenu = entityManager.find(CategoryAndMenu.class, categoryCode);

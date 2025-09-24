@@ -14,4 +14,3 @@ public interface CategoryRepository
         + "ORDER BY CATEGORY_CODE ASC", nativeQuery = true)
 List<Category> findAllCategories();
 }
-dd

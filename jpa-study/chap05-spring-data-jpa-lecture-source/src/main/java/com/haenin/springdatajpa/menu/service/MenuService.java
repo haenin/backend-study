@@ -98,6 +98,7 @@ public class MenuService {
                 .map(menu -> modelMapper.map(menu, MenuDTO.class))
                 .collect(Collectors.toList());
     }
+
     /* 설명. 3. findAll() (페이징 처리 후) */
     public Page<MenuDTO> findMenuList(Pageable pageable){
         /* 설명.
@@ -131,5 +132,33 @@ public class MenuService {
     @Transactional
     public void registMenu(MenuDTO newMenu) {
         menuRepository.save(modelMapper.map(newMenu, Menu.class));
+    }
+
+    /* 설명. 6. update 진행 */
+    // @transactional 이 하나의 영속성 컨텍스트
+    @Transactional
+    public void modifyMenu(MenuDTO modifyMenu) {
+        /* 설명. 수정 할 메뉴를 가져와서(영속 상태로 만들어)
+         *       영속 상태인 객체를 수정하면 update*/
+        Menu foundMenu = menuRepository
+                .findById(modifyMenu.getMenuCode()).get();
+        foundMenu.setMenuName(modifyMenu.getMenuName());
+
+    }
+
+    /* 설명. 7. delete 진행 */
+    @Transactional
+    public void deleteMenu(int menuCode) {
+        menuRepository.deleteById(menuCode);
+    }
+
+    /* 설명. 8. 쿼리 메소드 활용하기 */
+    public List<MenuDTO> findMenuPrice(int menuPrice) {
+//        List<Menu> menus = menuRepository.findByMenuPriceGreaterThan(menuPrice);
+        List<Menu> menus = menuRepository.findByMenuPriceBetween(menuPrice, menuPrice+10000);
+
+        return menus.stream()
+                .map(menu -> modelMapper.map(menu, MenuDTO.class))
+                .collect(Collectors.toList());
     }
 }

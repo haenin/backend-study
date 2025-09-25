@@ -19,3 +19,4 @@ logging:
     com:
       haenin:
         springdatajpa: debug
+

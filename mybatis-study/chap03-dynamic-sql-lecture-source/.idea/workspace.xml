@@ -5,13 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0a83793-2404-4528-a634-ed11eaa61b60" name="변경" comment="servlet study">
-      <change afterPath="$PROJECT_DIR$/../../mybatis&amp;spring-study/chap01-mybatis-spring-lecture-source/src/main/java/com/haenin/mybatisspring/config/MybatisConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mybatis&amp;spring-study/chap01-mybatis-spring-lecture-source/src/main/java/com/haenin/mybatisspring/section01/factorybean/MenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mybatis&amp;spring-study/chap01-mybatis-spring-lecture-source/src/main/java/com/haenin/mybatisspring/section01/factorybean/MenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mybatis&amp;spring-study/chap01-mybatis-spring-lecture-source/src/main/resources/com/haenin/mybatisspring/section01/factorybean/MenuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mybatis&amp;spring-study/chap01-mybatis-spring-lecture-source/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mybatis&amp;spring-study/chap01-mybatis-spring-lecture-source/src/main/resources/log4jdbc.log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../mybatis&amp;spring-study/chap01-mybatis-spring-lecture-source/src/test/java/com/haenin/mybatisspring/section01/factorybean/MenuServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../msa/chap02-01-first-service-lecture-soruce/src/main/java/com/haenin/firstservice/FirstServiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../msa/chap02-02-second-service-lecture-source/src/main/java/com/haenin/secondservice/SecondServiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../msa/chap02-02-second-service-lecture-source/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../msa/chap04-01-user-service-lecture-source/src/main/java/com/haenin/userservice/aggregate/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../msa/chap04-01-user-service-lecture-source/src/main/java/com/haenin/userservice/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../msa/chap04-01-user-service-lecture-source/src/main/java/com/haenin/userservice/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../msa/chap04-01-user-service-lecture-source/src/main/java/com/haenin/userservice/dto/HelloDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../msa/chap04-01-user-service-lecture-source/src/main/java/com/haenin/userservice/dto/RequestRegistUserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../msa/chap04-01-user-service-lecture-source/src/main/java/com/haenin/userservice/dto/ResponseRegistUserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../msa/chap04-01-user-service-lecture-source/src/main/java/com/haenin/userservice/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../msa/chap04-01-user-service-lecture-source/src/main/java/com/haenin/userservice/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../msa/chap04-01-user-service-lecture-source/src/main/java/com/haenin/userservice/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../msa/chap04-01-user-service-lecture-source/src/main/java/com/haenin/userservice/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-restapi-study/chap08-rest-api-lecture-source/src/main/java/com/haenin/restapi/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-restapi-study/chap08-rest-api-lecture-source/src/main/java/com/haenin/restapi/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-restapi-study/chap08-rest-api-lecture-source/src/main/java/com/haenin/restapi/section01/response/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-restapi-study/chap08-rest-api-lecture-source/src/main/java/com/haenin/restapi/section01/response/ResponseRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-restapi-study/chap08-rest-api-lecture-source/src/main/java/com/haenin/restapi/section01/response/get.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-restapi-study/chap08-rest-api-lecture-source/src/main/java/com/haenin/restapi/section02/responseentity/ResponseEntityTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-restapi-study/chap08-rest-api-lecture-source/src/main/java/com/haenin/restapi/section02/responseentity/ResponseMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-restapi-study/chap08-rest-api-lecture-source/src/main/java/com/haenin/restapi/section02/responseentity/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springboot-restapi-study/chap08-rest-api-lecture-source/src/main/java/com/haenin/restapi/section02/responseentity/user.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa-study/chap03-association-mapping-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../jpa-study/chap03-association-mapping-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa-study/chap03-association-mapping-lecture-source/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../jpa-study/chap03-association-mapping-lecture-source/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa-study/chap03-association-mapping-lecture-source/src/test/java/com/haenin/section02/onetomany/OneToManyAssociationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jpa-study/chap03-association-mapping-lecture-source/src/test/java/com/haenin/section02/onetomany/OneToManyAssociationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa-study/chap04-jpql.lecture.source/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../jpa-study/chap04-jpql.lecture.source/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa-study/chap05-spring-data-jpa-lecture-source/src/main/java/com/haenin/springdatajpa/menu/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jpa-study/chap05-spring-data-jpa-lecture-source/src/main/java/com/haenin/springdatajpa/menu/controller/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa-study/chap05-spring-data-jpa-lecture-source/src/main/java/com/haenin/springdatajpa/menu/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jpa-study/chap05-spring-data-jpa-lecture-source/src/main/java/com/haenin/springdatajpa/menu/repository/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa-study/chap05-spring-data-jpa-lecture-source/src/main/java/com/haenin/springdatajpa/menu/repository/MenuRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jpa-study/chap05-spring-data-jpa-lecture-source/src/main/java/com/haenin/springdatajpa/menu/repository/MenuRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa-study/chap05-spring-data-jpa-lecture-source/src/main/java/com/haenin/springdatajpa/menu/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jpa-study/chap05-spring-data-jpa-lecture-source/src/main/java/com/haenin/springdatajpa/menu/service/MenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa-study/chap05-spring-data-jpa-lecture-source/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../jpa-study/chap05-spring-data-jpa-lecture-source/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpa-study/chap05-spring-data-jpa-lecture-source/src/main/resources/templates/main/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../jpa-study/chap05-spring-data-jpa-lecture-source/src/main/resources/templates/main/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +70,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/haenin/backend-study.git&quot;,
-    &quot;accountId&quot;: &quot;78d49b73-16b5-4308-9853-2a94b64ff0f1&quot;
+    &quot;accountId&quot;: &quot;c2da40f2-dfe8-48a2-a787-412478f2ea26&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -53,31 +80,31 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.chap03-dynamic-sql-lecture-source [:com.haenin.dynamic.Application.main()].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/haeone/Desktop/hw19/backend-study/mybatis-study/chap03-dynamic-sql-lecture-source",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.chap03-dynamic-sql-lecture-source [:com.haenin.dynamic.Application.main()].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/haeone/Desktop/hw19/backend-study/mybatis-study/chap03-dynamic-sql-lecture-source&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mariadb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.haenin.dynamic" />
@@ -106,6 +133,8 @@
       <workItem from="1757785814272" duration="649000" />
       <workItem from="1757827400304" duration="6462000" />
       <workItem from="1757917109559" duration="5767000" />
+      <workItem from="1758450392649" duration="6290000" />
+      <workItem from="1758592729831" duration="4454000" />
     </task>
     <task id="LOCAL-00001" summary="springboot study">
       <option name="closed" value="true" />
@@ -412,7 +441,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/haenin/dynamic/SearchCriteria.java</url>
           <line>9</line>
-          <properties class="com.haenin.dynamic.SearchCriteria">
+          <properties class="com.haenin.dynamic.SearchCriteria" method="&lt;init&gt;">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

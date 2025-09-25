@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!-- 대괄호 2개는 안에 내용을 문자열로 바꿔줌 -->
+<h1>[[${menuPrice}]]원을 초과하는 메뉴 목록</h1>
+<table>
+    <tr>
+        <th>메뉴번호</th>
+        <th>메뉴이름</th>
+        <th>메뉴가격</th>
+        <th>카테고리코드</th>
+        <th>판매상태</th>
+    </tr>
+    <tr th:each="menu: ${ menuList }">
+        <th th:text="${ menu.menuCode }"></th>
+        <th th:text="${ menu.menuName }"></th>
+        <th th:text="${ menu.menuPrice }"></th>
+        <th th:text="${ menu.categoryCode }"></th>
+        <th th:text="${ menu.orderableStatus }"></th>
+    </tr>
+</table>
+</body>
+</html>

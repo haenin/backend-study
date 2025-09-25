@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="50bd8aab-5aa8-447f-8a2c-1afa87774ec8" name="변경" comment="commit">
+      <change afterPath="$PROJECT_DIR$/msa/chap02-01-first-service-lecture-soruce/src/main/java/com/haenin/firstservice/FirstServiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msa/chap02-02-second-service-lecture-source/src/main/java/com/haenin/secondservice/SecondServiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msa/chap02-02-second-service-lecture-source/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msa/chap04-01-user-service-lecture-source/src/main/java/com/haenin/userservice/HMACKKeyGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msa/chap04-01-user-service-lecture-source/src/main/java/com/haenin/userservice/aggregate/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msa/chap04-01-user-service-lecture-source/src/main/java/com/haenin/userservice/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msa/chap04-01-user-service-lecture-source/src/main/java/com/haenin/userservice/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msa/chap04-01-user-service-lecture-source/src/main/java/com/haenin/userservice/dto/HelloDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msa/chap04-01-user-service-lecture-source/src/main/java/com/haenin/userservice/dto/RequestLoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msa/chap04-01-user-service-lecture-source/src/main/java/com/haenin/userservice/dto/RequestRegistUserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msa/chap04-01-user-service-lecture-source/src/main/java/com/haenin/userservice/dto/ResponseRegistUserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msa/chap04-01-user-service-lecture-source/src/main/java/com/haenin/userservice/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msa/chap04-01-user-service-lecture-source/src/main/java/com/haenin/userservice/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msa/chap04-01-user-service-lecture-source/src/main/java/com/haenin/userservice/security/AuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msa/chap04-01-user-service-lecture-source/src/main/java/com/haenin/userservice/security/JwtAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msa/chap04-01-user-service-lecture-source/src/main/java/com/haenin/userservice/security/WebSecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msa/chap04-01-user-service-lecture-source/src/main/java/com/haenin/userservice/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msa/chap04-01-user-service-lecture-source/src/main/java/com/haenin/userservice/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-restapi-study/chap08-rest-api-lecture-source/src/main/java/com/haenin/restapi/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-restapi-study/chap08-rest-api-lecture-source/src/main/java/com/haenin/restapi/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-restapi-study/chap08-rest-api-lecture-source/src/main/java/com/haenin/restapi/section01/response/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-restapi-study/chap08-rest-api-lecture-source/src/main/java/com/haenin/restapi/section01/response/ResponseRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-restapi-study/chap08-rest-api-lecture-source/src/main/java/com/haenin/restapi/section01/response/get.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-restapi-study/chap08-rest-api-lecture-source/src/main/java/com/haenin/restapi/section02/responseentity/ResponseEntityTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-restapi-study/chap08-rest-api-lecture-source/src/main/java/com/haenin/restapi/section02/responseentity/ResponseMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-restapi-study/chap08-rest-api-lecture-source/src/main/java/com/haenin/restapi/section02/responseentity/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-restapi-study/chap08-rest-api-lecture-source/src/main/java/com/haenin/restapi/section02/responseentity/user.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-study/chap03-association-mapping-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-study/chap03-association-mapping-lecture-source/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-study/chap03-association-mapping-lecture-source/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-study/chap03-association-mapping-lecture-source/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-study/chap03-association-mapping-lecture-source/src/test/java/com/haenin/section02/onetomany/OneToManyAssociationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-study/chap03-association-mapping-lecture-source/src/test/java/com/haenin/section02/onetomany/OneToManyAssociationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-study/chap04-jpql.lecture.source/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-study/chap04-jpql.lecture.source/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-study/chap05-spring-data-jpa-lecture-source/src/main/java/com/haenin/springdatajpa/menu/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-study/chap05-spring-data-jpa-lecture-source/src/main/java/com/haenin/springdatajpa/menu/controller/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-study/chap05-spring-data-jpa-lecture-source/src/main/java/com/haenin/springdatajpa/menu/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-study/chap05-spring-data-jpa-lecture-source/src/main/java/com/haenin/springdatajpa/menu/repository/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-study/chap05-spring-data-jpa-lecture-source/src/main/java/com/haenin/springdatajpa/menu/repository/MenuRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-study/chap05-spring-data-jpa-lecture-source/src/main/java/com/haenin/springdatajpa/menu/repository/MenuRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-study/chap05-spring-data-jpa-lecture-source/src/main/java/com/haenin/springdatajpa/menu/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-study/chap05-spring-data-jpa-lecture-source/src/main/java/com/haenin/springdatajpa/menu/service/MenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-study/chap05-spring-data-jpa-lecture-source/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-study/chap05-spring-data-jpa-lecture-source/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpa-study/chap05-spring-data-jpa-lecture-source/src/main/resources/templates/main/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/jpa-study/chap05-spring-data-jpa-lecture-source/src/main/resources/templates/main/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-study/chap03-dynamic-sql-lecture-source/.idea/data_source_mapping.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-study/chap03-dynamic-sql-lecture-source/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-study/chap03-dynamic-sql-lecture-source/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list id="3ea87c96-0df6-4923-a145-f8b6df4e476b" name="shelvedpatch" comment="shelvedpatch" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;haenin&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/haenin/backend-study.git&quot;,
+    &quot;accountId&quot;: &quot;c2da40f2-dfe8-48a2-a787-412478f2ea26&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="32ld6yBrb6RPEQmKYq5GBUpUdiE" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/haeone/Desktop/hw19/backend-study",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="50bd8aab-5aa8-447f-8a2c-1afa87774ec8" name="변경" comment="" />
+      <changelist id="3ea87c96-0df6-4923-a145-f8b6df4e476b" name="shelvedpatch" comment="" />
+      <created>1757998922072</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757998922072</updated>
+      <workItem from="1757998923117" duration="823000" />
+      <workItem from="1758000079535" duration="45000" />
+      <workItem from="1758000649130" duration="51000" />
+      <workItem from="1758002191556" duration="73000" />
+      <workItem from="1758002789863" duration="5000" />
+      <workItem from="1758003483473" duration="18000" />
+      <workItem from="1758003645659" duration="7000" />
+      <workItem from="1758003821233" duration="10000" />
+      <workItem from="1758004163561" duration="91000" />
+      <workItem from="1758004655285" duration="116000" />
+      <workItem from="1758004819536" duration="50000" />
+      <workItem from="1758004872095" duration="2000" />
+      <workItem from="1758008867887" duration="620000" />
+      <workItem from="1758017739563" duration="15000" />
+      <workItem from="1758017821042" duration="1046000" />
+      <workItem from="1758102361004" duration="21000" />
+      <workItem from="1758115862140" duration="80000" />
+      <workItem from="1758115988691" duration="2464000" />
+      <workItem from="1758175253035" duration="52000" />
+      <workItem from="1758293363774" duration="1656000" />
+      <workItem from="1758685223973" duration="326000" />
+    </task>
+    <task id="LOCAL-00005" summary="mybatis&amp;spring study">
+      <option name="closed" value="true" />
+      <created>1757999741860</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1757999741860</updated>
+    </task>
+    <task id="LOCAL-00006" summary="mybatis&amp;spring study">
+      <option name="closed" value="true" />
+      <created>1758000664032</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1758000664032</updated>
+    </task>
+    <task id="LOCAL-00007" summary="mybatis&amp;spring study">
+      <option name="closed" value="true" />
+      <created>1758002197167</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1758002197167</updated>
+    </task>
+    <task id="LOCAL-00008" summary="mybatis&amp;spring study">
+      <option name="closed" value="true" />
+      <created>1758017828728</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1758017828728</updated>
+    </task>
+    <task id="LOCAL-00009" summary="jpa study">
+      <option name="closed" value="true" />
+      <created>1758102380209</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1758102380209</updated>
+    </task>
+    <task id="LOCAL-00010" summary="jpa study">
+      <option name="closed" value="true" />
+      <created>1758115888113</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1758115888113</updated>
+    </task>
+    <task id="LOCAL-00011" summary="jpa study">
+      <option name="closed" value="true" />
+      <created>1758115935504</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1758115935504</updated>
+    </task>
+    <task id="LOCAL-00012" summary="jpa study">
+      <option name="closed" value="true" />
+      <created>1758116422004</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1758116422004</updated>
+    </task>
+    <task id="LOCAL-00013" summary="jpa study">
+      <option name="closed" value="true" />
+      <created>1758116446706</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1758116446706</updated>
+    </task>
+    <task id="LOCAL-00014" summary="jpa study">
+      <option name="closed" value="true" />
+      <created>1758116506180</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1758116506180</updated>
+    </task>
+    <task id="LOCAL-00015" summary="jpa study">
+      <option name="closed" value="true" />
+      <created>1758116529245</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1758116529245</updated>
+    </task>
+    <task id="LOCAL-00016" summary="jpa study">
+      <option name="closed" value="true" />
+      <created>1758116559921</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1758116559921</updated>
+    </task>
+    <task id="LOCAL-00017" summary="jpa study">
+      <option name="closed" value="true" />
+      <created>1758116606938</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1758116606938</updated>
+    </task>
+    <task id="LOCAL-00018" summary="jpa study">
+      <option name="closed" value="true" />
+      <created>1758116645199</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1758116645199</updated>
+    </task>
+    <task id="LOCAL-00019" summary="jpa study">
+      <option name="closed" value="true" />
+      <created>1758116739399</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1758116739399</updated>
+    </task>
+    <task id="LOCAL-00020" summary="jpa study">
+      <option name="closed" value="true" />
+      <created>1758116800387</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1758116800387</updated>
+    </task>
+    <task id="LOCAL-00021" summary="jpa study">
+      <option name="closed" value="true" />
+      <created>1758117420932</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1758117420932</updated>
+    </task>
+    <task id="LOCAL-00022" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758117493553</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1758117493553</updated>
+    </task>
+    <task id="LOCAL-00023" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758118432130</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1758118432130</updated>
+    </task>
+    <task id="LOCAL-00024" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758118555300</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1758118555300</updated>
+    </task>
+    <task id="LOCAL-00025" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758118565967</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1758118565967</updated>
+    </task>
+    <task id="LOCAL-00026" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758175265836</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1758175265837</updated>
+    </task>
+    <task id="LOCAL-00027" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758293379137</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1758293379137</updated>
+    </task>
+    <task id="LOCAL-00028" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758293535407</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1758293535407</updated>
+    </task>
+    <task id="LOCAL-00029" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758293641219</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1758293641219</updated>
+    </task>
+    <task id="LOCAL-00030" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758294375277</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1758294375277</updated>
+    </task>
+    <task id="LOCAL-00031" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758294635352</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1758294635352</updated>
+    </task>
+    <task id="LOCAL-00032" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758294795130</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1758294795130</updated>
+    </task>
+    <task id="LOCAL-00033" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758294819332</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1758294819332</updated>
+    </task>
+    <task id="LOCAL-00034" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758294832679</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1758294832679</updated>
+    </task>
+    <task id="LOCAL-00035" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758294838733</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1758294838733</updated>
+    </task>
+    <task id="LOCAL-00036" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758294844212</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1758294844212</updated>
+    </task>
+    <task id="LOCAL-00037" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758294850817</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1758294850817</updated>
+    </task>
+    <task id="LOCAL-00038" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758294863778</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1758294863778</updated>
+    </task>
+    <task id="LOCAL-00039" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758294888382</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1758294888382</updated>
+    </task>
+    <task id="LOCAL-00040" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758294936498</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1758294936498</updated>
+    </task>
+    <task id="LOCAL-00041" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758294942112</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1758294942112</updated>
+    </task>
+    <task id="LOCAL-00042" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758294946870</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1758294946870</updated>
+    </task>
+    <task id="LOCAL-00043" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758294951849</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1758294951849</updated>
+    </task>
+    <task id="LOCAL-00044" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758294958030</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1758294958030</updated>
+    </task>
+    <task id="LOCAL-00045" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758294964765</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1758294964765</updated>
+    </task>
+    <task id="LOCAL-00046" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758294970362</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1758294970362</updated>
+    </task>
+    <task id="LOCAL-00047" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758294975879</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1758294975879</updated>
+    </task>
+    <task id="LOCAL-00048" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758294981539</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1758294981539</updated>
+    </task>
+    <task id="LOCAL-00049" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758294985819</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1758294985819</updated>
+    </task>
+    <task id="LOCAL-00050" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758294991719</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1758294991720</updated>
+    </task>
+    <task id="LOCAL-00051" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758294997170</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1758294997170</updated>
+    </task>
+    <task id="LOCAL-00052" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758295002337</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1758295002337</updated>
+    </task>
+    <task id="LOCAL-00053" summary="commit">
+      <option name="closed" value="true" />
+      <created>1758295018647</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1758295018648</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/jdbc-study" />
+      <path value="$PROJECT_DIR$/jpa-study" />
+      <path value="$PROJECT_DIR$/mybatis&amp;spring-study" />
+      <path value="$PROJECT_DIR$/mybatis&amp;spring-study/chap01-mybatis-spring-lecture-source" />
+      <path value="$PROJECT_DIR$/mybatis&amp;spring-study/chap02-transactional-lecture-source" />
+      <path value="$PROJECT_DIR$/mybatis-study" />
+      <path value="$PROJECT_DIR$/mybatis-study/chap04-mapper-element-lecture-source" />
+      <path value="$PROJECT_DIR$/servlet-study" />
+      <path value="$PROJECT_DIR$/spring-study" />
+      <path value="$PROJECT_DIR$/springboot-study" />
+      <path value="$PROJECT_DIR$/jpa-study/chap03-association-mapping-lecture-source" />
+      <path value="$PROJECT_DIR$/jpa-study/chap04-jpql.lecture.source" />
+      <path value="$PROJECT_DIR$/jpa-study/chap05-spring-data-jpa-lecture-source" />
+    </ignored-roots>
+    <MESSAGE value="mybatis&amp;spring study" />
+    <MESSAGE value="jpa study" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

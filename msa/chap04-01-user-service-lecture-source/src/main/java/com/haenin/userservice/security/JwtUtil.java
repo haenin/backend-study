@@ -20,7 +20,6 @@ import java.util.Base64;
 import java.util.Collection;
 import java.util.stream.Collectors;
 
-/* 설명. */
 @Slf4j
 @Component
 public class JwtUtil {

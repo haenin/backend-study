@@ -1,8 +1,10 @@
 package com.haenin.userservice.service;
 
 import com.haenin.userservice.aggregate.UserEntity;
+import com.haenin.userservice.dto.MemberDTO;
 import com.haenin.userservice.dto.ResponseOrderDTO;
 import com.haenin.userservice.dto.UserDTO;
+import com.haenin.userservice.dto.UserImpl;
 import com.haenin.userservice.infrastructure.OrderServiceClient;
 import com.haenin.userservice.repository.UserRepository;
 import lombok.extern.slf4j.Slf4j;
@@ -58,7 +60,7 @@ public class UserServiceImpl implements UserService {
     }
 
     /* 설명. 단순 회원정보 조회에서 =>
-    *   + 회원정보 + 회원의 주문내약(Order(다른 도메인)) */
+    *   + 회원정보 + 회원의 주문내역(Order(다른 도메인)) */
     @Override
     public UserDTO getUserById(String memNo) {
         UserEntity user = userRepository.findById(Long.parseLong(memNo)).get();
@@ -92,12 +94,21 @@ public class UserServiceImpl implements UserService {
         grantedAuthorities.add(new SimpleGrantedAuthority("ROLE_ADMIN"));
         grantedAuthorities.add(new SimpleGrantedAuthority("ROLE_ENTERPRISE"));
 
-        return new User(loginUser.getEmail(),
-                loginUser.getEncryptPwd(),
-                true,
-                true,
-                true,
-                true,
-                grantedAuthorities);
+//        return new User(loginUser.getEmail(),
+//                loginUser.getEncryptPwd(),
+//                true,
+//                true,
+//                true,
+//                true,
+//                grantedAuthorities);
+        // 이 객체에 username, password, authorities 빼고 나머지 담음
+        MemberDTO memberDTO = new MemberDTO();
+        UserImpl userImpl =
+                new UserImpl(loginUser.getEmail(),
+                        loginUser.getEncryptPwd(),
+                        grantedAuthorities);
+        userImpl.setDetails(memberDTO);
+
+        return userImpl;
     }
 }

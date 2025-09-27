@@ -49,7 +49,21 @@ public class WebSecurity {
     protected SecurityFilterChain configure(HttpSecurity http, JwtUtil jwtUtil) throws Exception {
         http.csrf(csrf -> csrf.disable());
         http.authorizeHttpRequests( authz ->
-                authz.requestMatchers("/**").permitAll() // 어떤 형로의 url경로를 허용
+//                authz.requestMatchers("/**").permitAll() // 어떤 형로의 url경로를 허용
+                authz.requestMatchers(HttpMethod.GET, "/health").permitAll()
+                        .requestMatchers(HttpMethod.POST,"/users/**").permitAll()
+                        .requestMatchers(HttpMethod.GET,"/test").permitAll()
+                        .requestMatchers(HttpMethod.GET,"/acturator/**").permitAll()
+                        .requestMatchers(HttpMethod.POST,"/acturator/**").permitAll()
+//                        .requestMatchers("/acturator/**").permitAll() // 이렇게 하면 요청행위 관계없음
+//
+
+                        // 인가 관련
+//                        .requestMatchers(HttpMethod.GET,"/users/**").hasRole("ENTERPRISE")
+                        .requestMatchers(HttpMethod.GET,"/users/**").hasAnyRole("ENTERPRISE","ADMIN")
+                        .requestMatchers(HttpMethod.GET,"/test1/**","/test2/**").hasAnyRole("ENTERPRISE","ADMIN")
+
+
                     /*  .requestMatchers(HttpMethod.GET,"/user/**").hasRole("USER") // ROLE_USER
                         .requestMatchers("/**").permitAll() */
                         .anyRequest().authenticated())
